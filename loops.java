@@ -5,12 +5,14 @@ class Hello {
 
         // while loop in java
         while (b > 1) {
-            System.out.println(b);
+            System.out.println(" While loop " + b);
             b--;
         }
 
-        do {
-            System.out.println("");
-        }
+        int c =1;
+        do {    
+            System.out.println("Do while " + (c++) );
+        } 
+        while (c >= 4);
     }
 }
